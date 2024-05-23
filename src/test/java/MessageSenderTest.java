@@ -10,7 +10,7 @@ import ru.netology.sender.MessageSenderImpl;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MessageSender {
+public class MessageSenderTest {
     @Test
     public void testMessageSenderImplRussia() {
         GeoServiceImpl geo = Mockito.mock(GeoServiceImpl.class);
